@@ -19,7 +19,7 @@ const palindromes = function (string) {
             array.splice(array.indexOf(syllable), 1)
         }
     })
-    
+
     const middleAnswer = array.join('')
     const reverse = array.reverse()
     const answer = reverse.join('')
